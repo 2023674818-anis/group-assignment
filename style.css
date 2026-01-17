@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.site-header {
+	background-color: black; /* warna ikut logo */
+	padding: 10px 20px;
+}
+
+.logo-container {
+	display: flex;
+	align-items: center;
+}
+
+.logo-container img {
+	width: 100px;      /* saiz logo */
+	height: auto;
+	margin-right: 10px;
+}
+
+/* Navbar box */
+.navbar {
+	max-width: 1100px;
+	margin: auto;
+	padding: 20px 60px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+/* Navigation links */
+.nav-links {
+	list-style: none;
+	display: flex;
+	gap: 60px;
+}
+
+.nav-links a {
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+.nav-links a:hover {
+	text-decoration: underline;
+}
+body 
+{
+	font-family: Arial, sans-serif;
+	background: cornsilk;
+}
+footer 
+{
+	margin: 5px;
+}
